@@ -182,7 +182,7 @@ export default {
 
       this.friendFinding = false
       if(this.friendsFriendList.length > 0) {
-        this.twitterUrl = encodeURI(`http://twitter.com/share?url=https://nanarya.github.io/ffxiv-fff/&text=${this.character1.data.Name} と ${this.character2.data.Name} には共通のフレンドが ${this.friendsFriendList.length} 人います！ | FF14 FFF&hashtags=FF14FFF`)
+        this.twitterUrl = encodeURI(`http://twitter.com/share?url=https://nanarya.github.io/ffxiv-fff/&text=${this.character1.data.Name} と ${this.character2.data.Name} には共通のフレンドが ${this.friendsFriendList.length} 人います！ | FF14 Friend's Friend Finder&hashtags=FF14FFF`)
       }
       // console.group()
       // console.log(this.friendsFriendList)
