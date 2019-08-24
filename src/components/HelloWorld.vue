@@ -254,6 +254,11 @@ export default {
   margin-left 1em
   @media screen and (max-width: 1000px)
     margin-left 0
+  input
+    width 150px
+    @media screen and (max-width: 1000px)
+      width 100%
+
 .result
   border 1px solid #cccccc
   padding 20px
