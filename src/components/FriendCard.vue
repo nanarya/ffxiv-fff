@@ -28,12 +28,16 @@ export default {
 <style scoped lang='stylus'>
 .friendCard
   border 1px solid #cccccc
-  margin 20px
+  margin 20px 0
   display flex
-  flex-flow row nowrap 
+  flex-flow row nowrap
   align-items center
-  min-width 400px
+  min-width 420px
   text-align center
+  @media screen and (max-width: 1000px)
+    min-width auto 
+    width 100%
+    text-align left
 .image
   font-size 0
 .text
@@ -41,4 +45,6 @@ export default {
 .name
   font-size 30px
   line-height 1.4
+  @media screen and (max-width: 1000px)
+    font-size 20px
 </style>

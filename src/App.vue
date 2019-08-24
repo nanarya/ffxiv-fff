@@ -6,7 +6,13 @@
     .info
       p
         |このアプリケーションを使うには、調べたいキャラクターを両方ともLODESTONEにて、フレンドを公開設定にしている必要があります。
+        br
         |ログインの上、<a target="_blank" href="https://jp.finalfantasyxiv.com/lodestone/my/setting/account/">アカウント設定</a>を確認してください。
+        br
+        |理由があってフレンドを非公開に設定している方もいます。アプリケーション使用のために公開設定を無理強いするのはやめましょう。
+      p
+        |APIの制限により、混み合っているときは正常に動作しないことがあります。時間を空けてお試しください。
+      hr
       p
         |記載されている会社名・製品名・システム名などは、各社の商標、または登録商標です。
         br
@@ -16,7 +22,7 @@
         |ご意見ご要望は<a target="_blank" href="https://twitter.com/kid_nanarya">@kid_nanarya</a>まで
 
       p
-        |ハッシュタグは<a target="_blank" href="https://twitter.com/search?q=%23FF14FFF&src=typed_query#FF14FFF">こちら</a>
+        |ハッシュタグはこちら<a target="_blank" href="https://twitter.com/search?q=%23FF14FFF&src=typed_query#FF14FFF">#FF14FFF</a>
   </div>
 </template>
 
@@ -35,17 +41,16 @@ export default {
 .pageTitle
   font-size 30px
   margin-bottom 50px
-#app {
+#app
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  width 90%
   max-width 960px
   margin 0 auto
-  padding 20px 0
-}
+  padding 20px 20px
+    
 .info
   font-size 10px
   line-height 1.5
