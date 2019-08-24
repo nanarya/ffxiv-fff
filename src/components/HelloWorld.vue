@@ -239,6 +239,9 @@ export default {
   color #ffffff
   font-weight bold
   border-radius 5px
+  &:hover
+    opacity 0.6
+
 
 .generateTargets
   display flex
